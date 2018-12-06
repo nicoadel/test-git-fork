@@ -1,0 +1,93 @@
+/*
+Theme Name: Travel Blog
+Author: Nico Adelmann
+Version: 1.0
+*/
+
+body {
+  margin-top: 50px;
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+font-family: 'Noto Sans SC', sans-serif;
+}
+nav{
+	margin-top: 20px;
+}
+
+.main_column{
+		width: 66%;
+		float: left;
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+
+}
+.secondary_column{
+		width: 25%;
+		float: right;
+
+}
+hr{
+	border-top: 1px solid black;
+}
+.page-heading{
+	width: 30%;
+	margin: auto;
+}
+#lipsum p {
+overflow: hidden;
+	height: 310px;
+}
+.wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
+	justify-content: space-between;
+	
+}
+.portfolio-item{
+	width: 20%;
+}
+.card_travel img{
+	width: 100%;
+	height: 200px;
+}
+.card_travel{
+	border: 1px solid black;
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+.single_post{
+		display: flex;
+		flex-flow: row;
+		padding: 20px;
+}
+.widget{
+	list-style: none;
+}
+.single_post img{
+	width: 400px;
+	height: 400px;
+}
+.single_right_side{
+	margin-left: 50px;
+	width: 300px;
+}
+footer{
+	margin-top: 400px;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
