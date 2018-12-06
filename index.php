@@ -16,6 +16,7 @@ while (have_posts()){
               <h4 class="card-title">
                 <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
               </h4>
+              <h1>Eva wrote this</h1>
               <p class="card-text"><?php the_content(); ?></p>
             </div>
           </div>
